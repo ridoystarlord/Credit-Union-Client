@@ -30,8 +30,8 @@ const Index = () => {
             <Grid
               item
               xs={12}
-              md={4}
-              lg={4}
+              md={6}
+              lg={6}
               key={post?._id}
               sx={{ cursor: "pointer" }}
             >

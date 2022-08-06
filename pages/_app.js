@@ -30,10 +30,10 @@ function MyApp({ Component, pageProps }) {
       <Navbar />
       <Container sx={{ my: 2 }}>
         <Grid container spacing={2}>
-          <Grid item xs={12} md={12}>
+          <Grid item xs={12} md={8}>
             <Component {...pageProps} />
           </Grid>
-          {/* <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4}>
             <Paper elevation={2} sx={{ p: 2 }}>
               <Typography
                 variant="h5"
@@ -55,7 +55,7 @@ function MyApp({ Component, pageProps }) {
                   </Link>
                 ))}
             </Paper>
-          </Grid> */}
+          </Grid>
         </Grid>
       </Container>
       <Footer />

@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
       <Container sx={{ my: 2 }}>
         <Component {...pageProps} allBlogpost={allBlogpost} />
       </Container>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

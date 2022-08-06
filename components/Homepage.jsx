@@ -12,7 +12,7 @@ const Homepage = ({ allBlogpost }) => {
     return (
         <>
             <Grid container spacing={2}>
-                <Grid item xs={12} md={8} lg={8}>
+                <Grid item xs={12} md={12} lg={8}>
                     <Paper elevation={2} sx={{ p: 1 }}>
                         <Box sx={{ p: 1, maxHeight: "70.8vh", overflowY: "scroll" }}>
                             <Grid container spacing={3}>
@@ -31,7 +31,7 @@ const Homepage = ({ allBlogpost }) => {
                         <Pagination sx={{ mt: 2, px: 1 }} count={Math.ceil(allBlogpost.length / 10)} variant="outlined" shape="rounded" page={page} onChange={handlePaginationChange} />
                     </Paper>
                 </Grid>
-                <Grid item xs={4} md={4} lg={4}>
+                <Grid item xs={12} md={12} lg={4}>
                     <Paper elevation={2} sx={{ p: 2 }}>
                         <Typography
                             variant="h5"

@@ -34,8 +34,7 @@ const Navbar = () => {
                                 sx={{
                                     mr: 2,
                                     display: { xs: 'none', md: 'flex' },
-                                    fontFamily: 'monospace',
-                                    fontWeight: 700,
+                                    fontWeight: 500,
                                     fontSize: { md: "2rem" },
                                     color: 'inherit',
                                     textDecoration: 'none',
@@ -94,8 +93,7 @@ const Navbar = () => {
                                     mr: 2,
                                     display: { xs: 'flex', md: 'none' },
                                     flexGrow: 1,
-                                    fontFamily: 'monospace',
-                                    fontWeight: 700,
+                                    fontWeight: 500,
                                     color: 'inherit',
                                     textDecoration: 'none',
                                 }}

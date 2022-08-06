@@ -209,7 +209,7 @@ const privacypolicy = ({ allBlogpost }) => {
             </p>
           </Paper>
         </Grid>
-        <Grid item xs={4} md={4} lg={4}>
+        <Grid item xs={12} md={4} lg={4}>
           <Paper elevation={2} sx={{ p: 2 }}>
             <Typography
               variant="h5"

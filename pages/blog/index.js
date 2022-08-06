@@ -10,7 +10,7 @@ const Index = ({ allBlogpost }) => {
         {allBlogpost?.length > 0 &&
           allBlogpost.map((post) => (
             <Link href={`/${post.slug}`} key={post?._id}>
-              <Grid item xs={12} md={4} lg={4} sx={{ cursor: "pointer" }}>
+              <Grid item xs={12} md={6} lg={4} sx={{ cursor: "pointer" }}>
                 <BlogpageCard post={post} />
               </Grid>
             </Link>
